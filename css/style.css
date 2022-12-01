@@ -102,10 +102,14 @@ a h5:hover, a h1:hover{
     background-color:#28a745;
 }
 .profile{
+    position: relative;
     top: -50px;
 }
 .home-text{
     margin-top: -30px;
+}
+.text-justify{
+    text-align: justify;
 }
 .text-green{
     color: #28a745;
@@ -509,11 +513,11 @@ h1, h2, h3, h4 ,h5 , p ,strong, small{
 color: #212121;
 }
 :root {
-    --primary-color: #efefef;
-    --secondary-color: #212121;
+    --primary-color: #212121;
+    --secondary-color: #efefef;
 }
 
 .dark-theme{
-    --primary-color: #212121;
-    --secondary-color: #efefef;
+    --primary-color: #efefef;
+    --secondary-color: #212121;
 }
